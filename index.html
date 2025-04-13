@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Menú del Restaurante</h1>
+    </header>
+    <main>
+        <section id="entrantes">
+            <h2>Entrantes</h2>
+            <div class="item">
+                <h3>Ensalada Valenciana</h3>
+                <p>Fresca mezcla de vegetales locales.</p>
+                <span class="price">8€</span>
+                <button onclick="addToCart('Ensalada Valenciana', 8)">Añadir al pedido</button>
+            </div>
+        </section>
+        <!-- Puedes añadir más secciones como Platos principales, Postres -->
+    </main>
+    <footer>
+        <button onclick="showCart()">Ver Pedido</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
