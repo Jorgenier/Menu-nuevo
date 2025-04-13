@@ -50,3 +50,8 @@ function enviarPedido(datos) {
         console.error('Error al enviar el pedido:', error);
     });
 }
+    })
+    .catch(error => {
+        console.error('Error al enviar el pedido:', error);
+    });
+}
